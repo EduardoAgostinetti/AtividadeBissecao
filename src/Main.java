@@ -53,6 +53,8 @@ public class Main {
     public static void main(String[] args) {
         // Exemplo: f(x) = x³ - 15x
         Function<Double, Double> funcao = x -> (x * x * x) - (15 * x);
+
+                                                //inicio - fim - passo - tolerancia - maximo de Interações
         List<Double> raizes = encontrarRaizes(funcao, -5, 5, 1, 1e-6, 1);
 
         System.out.println("Raízes encontradas: " + raizes);
