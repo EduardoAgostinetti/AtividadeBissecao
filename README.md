@@ -48,6 +48,7 @@ public class Main {
         System.out.println("Raízes encontradas: " + raizes);
     }
 }
-
+```
 ## Saída Esperada:
 Raízes encontradas: [-3.872982978820801, 0.0, 3.872982978820801]
+
