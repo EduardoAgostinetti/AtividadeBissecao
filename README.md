@@ -32,7 +32,7 @@ O **Método de Bisseção** é um algoritmo de busca que funciona em intervalos 
     - `maxIter`: O número máximo de iterações para a bisseção.
 
 ### Exemplo de Uso:
-
+```java
 import java.util.function.Function;
 import java.util.List;
 
